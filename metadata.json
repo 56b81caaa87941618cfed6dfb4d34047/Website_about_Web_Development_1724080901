@@ -4,5 +4,6 @@
     "project_description": "A website about website",
     "creation_time": "2024-08-19 15:21:41.613546",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "stellar"
+    "selected_starter_template_id": "stellar",
+    "frontend_theme_prompt": "The image features a vivid color scheme dominated by shades of pink and purple with elements of black creating a surreal, otherworldly landscape. The style is a fantasy or sci-fi theme, emphasizing dramatic contrasts and ethereal lighting."
 }
