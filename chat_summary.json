@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where specifically would you like the dinosaur image to be positioned on the webpage?\", \"option1\": \"In the header section\", \"option2\": \"In the main content area or another specific section\"}, {\"question 2\": \"Do you want the dinosaur image to have any specific styling or effects (e.g., shadow, round corners)?\", \"option1\": \"Yes, add specific styling or effects\", \"option2\": \"No, keep it as the original image\"}], \"input_token_count\": 269, \"output_token_count\": 110, \"time_taken\": \"0:00:03.498993\"}",
         "timestamp": "19082024183822",
         "message_id": "guest19082024183817"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Responsive image gallery for showcasing multiple dinosaur species\", \"checked\": false}, {\"feature\": \"Image captioning for detailed dinosaur descriptions\", \"checked\": true}, {\"feature\": \"Lazy loading for images to improve page load speed\", \"checked\": true}, {\"feature\": \"Hover effects on images for interactive engagement\", \"checked\": false}, {\"feature\": \"Image zoom functionality on click for detailed viewing\", \"checked\": false}, {\"feature\": \"Alt text for all images for improved SEO and accessibility\", \"checked\": true}], \"input_token_count\": 223, \"output_token_count\": 122, \"time_taken\": \"0:00:03.848735\"}",
+        "timestamp": "19082024183822",
+        "message_id": "guest19082024183817"
     }
 ]
