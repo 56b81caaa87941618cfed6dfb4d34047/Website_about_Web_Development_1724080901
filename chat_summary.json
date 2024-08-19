@@ -12,5 +12,11 @@
         "content": "Add an image of a dinosaur",
         "timestamp": "19082024183817",
         "message_id": "guest19082024183817"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I will add an image of a dinosaur.",
+        "timestamp": "19082024183817",
+        "message_id": "guest19082024183817"
     }
 ]
