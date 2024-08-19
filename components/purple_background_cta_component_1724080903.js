@@ -25,17 +25,37 @@ Vue.component("purple_background_cta_component_1724080903", {
                     <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-transparent bg-gradient-to-r from-purple-500 to-purple-200">Empower Your Online Presence</div></div>
                     <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"> Create Your Dream Website Today</h2></div>
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Transform your online presence with our powerful website building tools and templates. Start your journey to a stunning website now!</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
+                    <form @submit.prevent="submitForm" class="mb-8">
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <input v-model="email" type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-lg border border-slate-300 focus:outline-none focus:border-purple-500" required>
+                            <button type="submit" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">
+                                Talk to Dinosaur <span class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
+                            </button>
+                        </div>
+                    </form>
                 </div>
                 <!-- New Image -->
                 <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Website_about_Web_Development_1724080901/main/images/6fb7955afb4a4bd0a82d640acd13a7cf.jpeg" alt="New Image" class="mx-auto my-4"/> 
             </div>
         </div>
     </section>`,
-        data() {
-            return {
-                expanded: false, 
-                tab: null,
-            };
+    data() {
+        return {
+            expanded: false,
+            tab: null,
+            email: '',
+        };
+    },
+    methods: {
+        // Start of submitForm method
+        submitForm() {
+            // Here you would typically send the email to your backend
+            console.log('Form submitted with email:', this.email);
+            // Reset the form
+            this.email = '';
+            // You could also add some user feedback here
+            alert('Thank you! The dinosaur will be in touch soon.');
         },
+        // End of submitForm method
+    },
     });
