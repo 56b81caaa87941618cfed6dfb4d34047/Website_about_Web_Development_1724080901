@@ -27,6 +27,8 @@ Vue.component("purple_background_cta_component_1724080903", {
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Transform your online presence with our powerful website building tools and templates. Start your journey to a stunning website now!</p></div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
                 </div>
+                <!-- New Image -->
+                <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Website_about_Web_Development_1724080901/main/images/6fb7955afb4a4bd0a82d640acd13a7cf.jpeg" alt="New Image" class="mx-auto my-4"/> 
             </div>
         </div>
     </section>`,
@@ -37,4 +39,3 @@ Vue.component("purple_background_cta_component_1724080903", {
             };
         },
     });
-                    
