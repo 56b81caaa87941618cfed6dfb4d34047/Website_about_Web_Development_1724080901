@@ -15,11 +15,11 @@ Vue.component("purple_header_component_1724080903", {
                 <nav id="desktop-navigation" class="hidden md:flex md:grow">
     
                     <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center">
-                        <li><a id="HEADER_NAVBAR_TEXT_1-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_1.html">HEADER_NAVBAR_TEXT_1</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_2-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_2.html">HEADER_NAVBAR_TEXT_2</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_3-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_3.html">HEADER_NAVBAR_TEXT_3</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_4-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_4.html">HEADER_NAVBAR_TEXT_4</a></li>
-                        <li><a id="HEADER_NAVBAR_TEXT_5-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_5.html">HEADER_NAVBAR_TEXT_5</a></li>
+                        <li><a id="Home-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="Home.html">Home</a></li>
+                        <li><a id="Website Basics-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="Website Basics.html">Website Basics</a></li>
+                        <li><a id="Design Tips-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="Design Tips.html">Design Tips</a></li>
+                        <li><a id="Development-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="Development.html">Development</a></li>
+                        <li><a id="Resources-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white" href="Resources.html">Resources</a></li>
                     </ul>
     
                 </nav>
@@ -42,11 +42,11 @@ Vue.component("purple_header_component_1724080903", {
     
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_1-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_1.html">HEADER_NAVBAR_TEXT_1</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_2-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_2.html">HEADER_NAVBAR_TEXT_2</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_3-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_3.html">HEADER_NAVBAR_TEXT_3</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_4-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_4.html">HEADER_NAVBAR_TEXT_4</a></li>
-                            <li><a id="mobile-HEADER_NAVBAR_TEXT_5-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="HEADER_NAVBAR_TEXT_5.html">HEADER_NAVBAR_TEXT_5</a></li>
+                            <li><a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Home.html">Home</a></li>
+                            <li><a id="mobile-Website Basics-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Website Basics.html">Website Basics</a></li>
+                            <li><a id="mobile-Design Tips-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Design Tips.html">Design Tips</a></li>
+                            <li><a id="mobile-Development-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Development.html">Development</a></li>
+                            <li><a id="mobile-Resources-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Resources.html">Resources</a></li>
                         </ul>
                     </nav>
     
