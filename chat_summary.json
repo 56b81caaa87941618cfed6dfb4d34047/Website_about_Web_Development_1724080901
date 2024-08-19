@@ -42,5 +42,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to be a simple contact form or an interactive chat-like interface?\", \"option1\": \"Simple contact form with fields for name, email, and message\", \"option2\": \"Interactive chat-like interface for a more dynamic conversation\"}, {\"question 2\": \"Should the email form include any specific functionalities like auto-responses or email verification?\", \"option1\": \"Yes, include auto-response acknowledging the receipt of the message\", \"option2\": \"Yes, include email verification to ensure the email address provided is valid\"}], \"input_token_count\": 275, \"output_token_count\": 124, \"time_taken\": \"0:00:04.385279\"}",
         "timestamp": "19082024184012",
         "message_id": "guest19082024184007"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Email form with customizable fields (name, email, message)\", \"checked\": true}, {\"feature\": \"Auto-reply feature for incoming emails with a customizable message\", \"checked\": false}, {\"feature\": \"CAPTCHA integration to prevent spam\", \"checked\": true}, {\"feature\": \"Email form submission confirmation page\", \"checked\": false}, {\"feature\": \"Ability to attach files in the email form\", \"checked\": false}, {\"feature\": \"Real-time email validation to ensure email format is correct\", \"checked\": true}], \"input_token_count\": 229, \"output_token_count\": 123, \"time_taken\": \"0:00:04.422141\"}",
+        "timestamp": "19082024184013",
+        "message_id": "guest19082024184007"
     }
 ]
