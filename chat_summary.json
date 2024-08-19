@@ -36,5 +36,11 @@
         "content": "Got it, working on adding an email form for you.",
         "timestamp": "19082024184007",
         "message_id": "guest19082024184007"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to be a simple contact form or an interactive chat-like interface?\", \"option1\": \"Simple contact form with fields for name, email, and message\", \"option2\": \"Interactive chat-like interface for a more dynamic conversation\"}, {\"question 2\": \"Should the email form include any specific functionalities like auto-responses or email verification?\", \"option1\": \"Yes, include auto-response acknowledging the receipt of the message\", \"option2\": \"Yes, include email verification to ensure the email address provided is valid\"}], \"input_token_count\": 275, \"output_token_count\": 124, \"time_taken\": \"0:00:04.385279\"}",
+        "timestamp": "19082024184012",
+        "message_id": "guest19082024184007"
     }
 ]
