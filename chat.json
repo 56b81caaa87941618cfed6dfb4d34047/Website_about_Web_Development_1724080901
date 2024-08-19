@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where specifically would you like the dinosaur image to be positioned on the webpage?\", \"option1\": \"In the header section\", \"option2\": \"In the main content area or another specific section\"}, {\"question 2\": \"Do you want the dinosaur image to have any specific styling or effects (e.g., shadow, round corners)?\", \"option1\": \"Yes, add specific styling or effects\", \"option2\": \"No, keep it as the original image\"}], \"input_token_count\": 269, \"output_token_count\": 110, \"time_taken\": \"0:00:03.498993\"}",
+        "message_id": "guest19082024183817",
+        "timestamp": "19082024183822",
+        "component_file_name": "purple_background_cta_component_1724080903",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I will add an image of a dinosaur.",
         "message_id": "guest19082024183817",
